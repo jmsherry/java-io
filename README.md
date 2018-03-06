@@ -2,6 +2,10 @@
 
 Simple Java app that echoes System.in to System.out
 
+## .dockerignore
+
+.dockergnore files can be used to keep things (e.g. bad.txt) out of the image when it is built
+
 ## Process
 1. Build image
 2. Confirm image in local registry
@@ -35,4 +39,3 @@ docker rm <containerid>
 docker rmi java-io:0.0.1
 
 ```
-
