@@ -1,6 +1,6 @@
 # java-io
 
-Simple Java app that echoes System.in to System.out
+Simple Java app that echoes `System.in` to `System.out`.
 
 ## .dockerignore
 
