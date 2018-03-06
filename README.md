@@ -2,6 +2,8 @@
 
 Simple Java app that echoes `System.in` to `System.out`.
 
+After you've made your docker file, build and run the project. After the run command has executed, try typing and pressing return. If you get the same thing back then you've won.
+
 ## .dockerignore
 
 .dockergnore files can be used to keep things (e.g. bad.txt) out of the image when it is built
