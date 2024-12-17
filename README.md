@@ -1,8 +1,10 @@
 # java-io
 
-Simple Java app that echoes `System.in` to `System.out`.
+This is a simple app that echoes `System.in` to `System.out`.
 
-After you've made your docker file, build and run the project. After the run command has executed, try typing and pressing return. If you get the same thing back then you've won.
+Try and create a Dockerfile for it. Build and run it. After the run command has executed, try typing and pressing return. If you get the same thing back then you've won.
+
+For answers, switch to the 'dockerised' branch
 
 ## .dockerignore
 
