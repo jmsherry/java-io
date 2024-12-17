@@ -1,7 +1,14 @@
-FROM openjdk:8
-COPY . /usr/src/app
+FROM openjdk:11
+
 WORKDIR /usr/src/app
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends maven
+
+COPY . .
+
+# Install build tool
+RUN apt-get update && apt-get install -y --no-install-recommends maven
+
+# Build
 RUN mvn clean package
+
 CMD ["java", "-jar", "./target/test-artifact-0.0.1-SNAPSHOT.jar"]
+
